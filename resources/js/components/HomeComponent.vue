@@ -1,23 +1,32 @@
 <template>
-<!--    <div class="row justify-content-center">-->
-<!--        <div class="col-md-8">-->
-<!--            <div class="card card-default">-->
-<!--                <div class="card-header">Home Component</div>-->
-
-<!--                <div class="card-body">-->
-<!--                    I'm the Home Component component.-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eos modi nulla quidem sapiente similique, tempore vel! Amet aut dolore ipsa itaque nisi possimus quos repellendus, suscipit tenetur vel voluptatum?
+    <section class="sectionHomeComponent">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Fluid jumbotron</h1>
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
             </div>
         </div>
-    </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>asdadad</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
 </template>
+
+<style>
+    .sectionHomeComponent{
+        margin-top: -25px;
+    }
+
+    .sectionHomeComponent .jumbotron{
+        /*background-image: ;*/
+    }
+</style>
 
 <script>
     export default {
